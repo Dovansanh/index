@@ -1,0 +1,16 @@
+:root {
+    --text-color: #333;
+    --white-color: #fff;
+    --border-color: #f2f2f2;
+    --header-height: 80px;
+    --hover-color: #f65e39;
+}
+
+.btn {
+    display: flex;
+    padding: 12px 0;
+    min-width: 55px;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-radius: 2px;
+}

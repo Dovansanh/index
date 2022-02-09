@@ -1,0 +1,133 @@
+/* mobi&tablet */
+
+@media (max-width: 63.9375em) {
+    .hidden-tablet-mobile {
+        display: none;
+    }
+    .header__navbar {
+        display: none;
+    }
+    .header__width-search {
+        padding: 0 30px;
+        width: 100%;
+    }
+    .row-tablet-mobile {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+    }
+    .header__width-menu {
+        display: flex;
+    }
+    .header__search {
+        margin: 0;
+    }
+    .information {
+        height: 465px;
+    }
+    .header__navbar-mony--width::after {
+        left: 50px;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    .btn--color {
+        background-color: #555;
+        color: #fff;
+    }
+    .content-footer__dowload {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .content-footer__dowload-appgallery {
+        margin-right: 40px;
+    }
+    .content-footer__img {
+        margin-top: 20px;
+    }
+    .footer-header__mobi-img {
+        margin-bottom: 18px;
+        width: 100%;
+    }
+    .footer-end {
+        padding: 20px 40px;
+    }
+    header__search-in {
+        width: 270px;
+    }
+}
+
+
+/* mobi  */
+
+@media (max-width:46.1875em) {
+    .hidden-mobile {
+        display: none;
+    }
+    .header {
+        width: 375px;
+    }
+    .header__width-search {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__width-menu {
+        flex: 0;
+    }
+    .header__search-in {
+        text-align: center;
+        flex: 1;
+        font-size: 1.6rem;
+        background-color: rgb(226, 226, 226);
+        color: #000;
+    }
+    .header-mobile__search {
+        display: flex;
+    }
+    .header__navbar-mony--width {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .header__search-day::before {
+        display: none;
+    }
+    .header__search-day a {
+        color: #000;
+    }
+    .content__header-heading {
+        font-size: 3.5rem;
+        line-height: 40px;
+    }
+    .content__body-span {
+        top: -10px;
+        left: 80%;
+        width: 100%;
+    }
+    .content-footer__svg {
+        height: 40px;
+    }
+    .content-footer__heading {
+        font-size: 2rem;
+    }
+    .content-footer__dowload {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-footer__dowload-appgallery {
+        margin: 10px 0;
+    }
+}
+
+
+/* pc  */
+
+@media (min-width:64em) {
+    .footer-body--mar {
+        margin-left: 20%;
+        flex: 1 !important;
+        max-width: none !important;
+    }
+}
